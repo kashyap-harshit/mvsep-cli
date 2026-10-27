@@ -1,0 +1,15 @@
+*.har
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+dist/
+build/
+*.egg-info/
+.mvsep_queue.json
+output/
+test_output/

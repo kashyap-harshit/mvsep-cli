@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mvsep-cli"
+version = "0.1.0"
+description = "yt-dlp style command-line tool for mvsep.com audio stem separation and batch processing"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+    "rich>=12.0.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+
+[project.scripts]
+mvsep = "mvsep.cli:main"
+mvsep-dl = "mvsep.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mvsep*"]
