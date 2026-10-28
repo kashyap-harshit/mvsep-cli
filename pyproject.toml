@@ -8,16 +8,47 @@ version = "0.1.0"
 description = "yt-dlp style command-line tool for mvsep.com audio stem separation and batch processing"
 readme = "README.md"
 requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "mvsep-cli contributors" }
+]
+keywords = [
+    "mvsep",
+    "audio-separation",
+    "vocal-remover",
+    "stem-separation",
+    "roformer",
+    "demucs",
+    "yt-dlp",
+    "audio",
+    "music",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Multimedia :: Sound/Audio :: Conversion",
+    "Topic :: Utilities",
+]
 dependencies = [
     "requests>=2.28.0",
     "rich>=12.0.0",
 ]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Topic :: Multimedia :: Sound/Audio",
-]
+
+[project.urls]
+Homepage = "https://github.com/your-username/mvsep-cli"
+Repository = "https://github.com/your-username/mvsep-cli"
+Issues = "https://github.com/your-username/mvsep-cli/issues"
 
 [project.scripts]
 mvsep = "mvsep.cli:main"

@@ -238,7 +238,7 @@ Examples:
     parser.add_argument("-m", "--model", default=config.get("default_model", 63), help="Separation model ID or name (default: 63)")
     parser.add_argument("-f", "--format", default=config.get("default_format", "mp3"), help="Output format: mp3, wav, flac (default: mp3)")
     parser.add_argument("-o", "--output", default=config.get("output_dir", "./output"), help="Output directory (default: ./output)")
-    parser.add_argument("--output-template", default=config.get("output_template", "%(title)s/%(stem)s.%(ext)s"), help="Output path template (default: %(title)s/%(stem)s.%(ext)s)")
+    parser.add_argument("--output-template", default=config.get("output_template", "%(title)s/%(stem)s.%(ext)s"), help="Output path template (default: %%(title)s/%%(stem)s.%%(ext)s)")
     parser.add_argument("-s", "--stems", help="Comma-separated stems to download (e.g. vocals,instrumental)")
     parser.add_argument("-r", "--recursive", action="store_true", help="Recursively scan directories for audio files")
     parser.add_argument("-L", "--list-models", nargs="?", const="", help="List or search available models")
