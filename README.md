@@ -36,8 +36,6 @@
 | **Batch Folder Processing (Free Tier)** | ❌ Manual (sit & click one-by-one) | ✅ **Fully automated sequential queue** |
 | **Captcha Challenges** | ⚠️ Cloudflare Turnstile blocks | ⚡ **Zero captchas** (uses official API) |
 | **Interruption & Crash Recovery** | ❌ Start over from scratch | ✅ **Persistent state (`.mvsep_queue.json`)** |
-| **Stem Downloads** | 🐌 Wait for zip or click 6+ buttons | 🚀 **Fast streaming with progress bars** |
-| **Selective Stem Extraction** | ❌ Full zip download required | ✅ **`--stems vocals,instrumental`** |
 | **Output Organization** | ❌ Flat clutter in `Downloads/` | ✅ **Automatic `output/<track>/<stem>.<ext>`** |
 | **Anonymous Result Downloading** | ❌ Web browser navigation only | ✅ **Paste result URL & download instantly** |
 | **Headless / Automation Support** | ❌ Requires browser GUI | ✅ **SSH, VPS, Docker, cron & scripts** |
